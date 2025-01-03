@@ -3,9 +3,9 @@ import requests
 
 app = Flask(__name__)
 
-# Replace this with the correct Gemini Vision API endpoint
-GEMINI_API_URL = "https://vision.googleapis.com/v1/images:annotate"
-GEMINI_API_KEY = "AIzaSyAQQHvhgFXkAlmSLdtiY7j4HDuQxoEuh5c"
+#Gemini Vision API endpoint
+GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent"
+GEMINI_API_KEY = "AIzaSyCPWR6u62hMIimA0k-IDUed3K4V0J6uYXQ"
 
 @app.route("/")
 def home():
